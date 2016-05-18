@@ -109,7 +109,7 @@ var ViewModel=function(){
         for(var i = 0; i < data[1].length; i ++){
           wikis+='<span><a href='+data[3][i]+'>'+data[1][i]+'</a></span><br/>';
         }
-          $("#addtl").html(wikis);        
+        $("#addtl").html(wikis);
       }
     });
   }
