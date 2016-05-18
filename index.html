@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Neighbourhood map of Tsukuba,Ibaraki Japan</title>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDQmg_cS6P83jPLJhIT8zBZBcHAqvQV6vg" type="text/javascript"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/knockout-3.4.0.js"></script>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+  <h2>Neighborhood Explorer</h2>
+  <div id='menu'>
+ <input id='search' type="text" data-bind="textinput:searchKey" />
+  <button class='find' data-bind="click:searchMarkers">Search</button><br/><br/>
+    <span class="list_header" >Places to visit</span>
+    <ul id="places" data-bind='foreach:categories'>
+      <li><span data-bind='text:$data,click:$root.showMarkers'></span></li>
+    </ul>
+</div>
+<div id='more'>
+  <span class="list_header">More Information...</span><br/><br/>
+  <div id="addtl" class='info'></div>
+</div>
+  <div id="googleMap"></div>
+
+  <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body{
+  background-color: #46466d;
+}
+h2{
+  padding-top:10px;
+  padding-bottom:0pt;
+  font-family: Gill Sans Extrabold, sans-serif;
+  color:#ffffff;
+  text-align:center;
+}
+#menu{
+  float:left;
+  padding-left:0px;
+  padding-right:25px;
+  width:250px;
+}
+#searchLabel{
+  float:left;
+  font-family: Gill Sans Extrabold, sans-serif;
+  color:#ffffff;
+}
+#search{
+  float:left;
+  width:150px;
+  padding:1px;
+  margin-right:5px;
+}
+#jpn{
+  float:right;
+  height:200px;
+}
+.list_header{
+  font-family:Gill Sans Extrabold, sans-serif;
+  font-weight:bold;
+  color:#ffffff;
+}
+#more{
+  float:right;
+  padding-right:100px;
+  padding-left:25px;
+}
+#addtl{
+  font-family:Gill Sans Extrabold, sans-serif;
+  color:#ffffff;
+  float:right;
+}
+#addtl a{
+  color:#ffffff;
+}
+#googleMap{
+  float:left;
+  width:1000px;
+  height:750px;
+  padding-left:250px;
+}
+#places{
+  list-style: square;
+  color:#ffffff;
+}
+
+li {
+  font: 200 15px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border: none;
+}
+
+li a {
+  text-decoration: none;
+  color:#ffffff;
+  display: block;
+  width: 200px;
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+  color:#000;
+}
+.find{
+  background-color:#ffffff;
+}
